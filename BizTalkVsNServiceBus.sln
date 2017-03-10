@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkVsNServiceBus.Sample.BizTalk", "BizTalkVsNServiceBus.Sample.BizTalk\BizTalkVsNServiceBus.Sample.BizTalk.btproj", "{B3B61576-244F-4EB1-A4D2-4B8BADA43ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkVsNServiceBus.Sample.NsbHost", "BizTalkVsNServiceBus.Sample.NsbHost\BizTalkVsNServiceBus.Sample.NsbHost.csproj", "{2D4F9222-66F0-40AE-9995-73340E1865B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkVsNServiceBus.Sample.Nsb.Messages", "BizTalkVsNServiceBus.Sample.Nsb.Messages\BizTalkVsNServiceBus.Sample.Nsb.Messages.csproj", "{CB0C7768-3EBA-4020-A577-F7F3D6B9938F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkVsNServiceBus.Sample.PiplineComponents", "BizTalkVsNServiceBus.Sample.PiplineComponents\BizTalkVsNServiceBus.Sample.PiplineComponents.csproj", "{253CC989-B7AF-4B5F-B7F0-53A4CE466713}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88D9E086-86DD-45AB-A1AA-799496796A0F}"
+	ProjectSection(SolutionItems) = preProject
+		Bindings.xml = Bindings.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkVsNServiceBus.ClientUI", "BizTalkVsNServiceBus.ClientUI\BizTalkVsNServiceBus.ClientUI.csproj", "{0022142A-5807-4198-88B3-194392FA75A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkVsNServiceBus.Sample.OutputServer", "BizTalkVsNServiceBus.Sample.OutputServer\BizTalkVsNServiceBus.Sample.OutputServer.csproj", "{761609FC-A496-428B-A099-DAA28B0B1426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3B61576-244F-4EB1-A4D2-4B8BADA43ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B61576-244F-4EB1-A4D2-4B8BADA43ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B61576-244F-4EB1-A4D2-4B8BADA43ADC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B3B61576-244F-4EB1-A4D2-4B8BADA43ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B61576-244F-4EB1-A4D2-4B8BADA43ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B61576-244F-4EB1-A4D2-4B8BADA43ADC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2D4F9222-66F0-40AE-9995-73340E1865B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4F9222-66F0-40AE-9995-73340E1865B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4F9222-66F0-40AE-9995-73340E1865B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4F9222-66F0-40AE-9995-73340E1865B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB0C7768-3EBA-4020-A577-F7F3D6B9938F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB0C7768-3EBA-4020-A577-F7F3D6B9938F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB0C7768-3EBA-4020-A577-F7F3D6B9938F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0C7768-3EBA-4020-A577-F7F3D6B9938F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253CC989-B7AF-4B5F-B7F0-53A4CE466713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253CC989-B7AF-4B5F-B7F0-53A4CE466713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253CC989-B7AF-4B5F-B7F0-53A4CE466713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253CC989-B7AF-4B5F-B7F0-53A4CE466713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0022142A-5807-4198-88B3-194392FA75A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0022142A-5807-4198-88B3-194392FA75A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0022142A-5807-4198-88B3-194392FA75A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0022142A-5807-4198-88B3-194392FA75A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761609FC-A496-428B-A099-DAA28B0B1426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761609FC-A496-428B-A099-DAA28B0B1426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761609FC-A496-428B-A099-DAA28B0B1426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761609FC-A496-428B-A099-DAA28B0B1426}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

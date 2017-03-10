@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <dotNetXsdUtilityPath>C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools</dotNetXsdUtilityPath>
+  </PropertyGroup>
+
+  <Target Name="BeforeBuild">
+    <Exec Command='"$(dotNetXsdUtilityPath)\xsd" ..\BizTalkVsNServiceBus.Sample.BizTalk\Schemas\OrderMessage.xsd /c /language:CS /namespace:BizTalkVsNServiceBus.Sample.Nsb.Messages'  />
+  </Target>
+</Project>
