@@ -64,7 +64,7 @@ namespace BizTalkVsNServiceBus.ClientUI
                         // Instantiate an order
                         var order = new OrderMessage()
                         {
-                            OrderId = "123456",
+                            OrderId = Guid.NewGuid().ToString(),
                             OrderStatus = 2,
                             OrderDate = new DateTime(2017,03,09),
                             Customer = new OrderMessageCustomer

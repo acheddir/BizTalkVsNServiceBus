@@ -6,5 +6,6 @@
 
   <Target Name="BeforeBuild">
     <Exec Command='"$(dotNetXsdUtilityPath)\xsd" ..\BizTalkVsNServiceBus.Sample.BizTalk\Schemas\OrderMessage.xsd /c /language:CS /namespace:BizTalkVsNServiceBus.Sample.Nsb.Messages'  />
+    <Exec Command='"$(dotNetXsdUtilityPath)\xsd" ..\BizTalkVsNServiceBus.Sample.BizTalk\Schemas\CustomerMessage.xsd /c /language:CS /namespace:BizTalkVsNServiceBus.Sample.Nsb.Messages'  />
   </Target>
 </Project>

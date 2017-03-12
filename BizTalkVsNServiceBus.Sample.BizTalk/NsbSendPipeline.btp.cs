@@ -29,7 +29,7 @@ namespace BizTalkVsNServiceBus.Sample.BizTalk
 " stageId=\"9d0e4108-4cce-4536-83fa-4a5040674ad6\" />      <Components />    </Stage>  </Stages></Docum"+
 "ent>";
         
-        private const string _versionDependentGuid = "d0f05942-d380-4529-a0e1-f334b898826d";
+        private const string _versionDependentGuid = "06399b01-8b29-4956-8605-f05df361878f";
         
         public NsbSendPipeline()
         {
